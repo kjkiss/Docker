@@ -6,8 +6,9 @@
 
 `docker run --name web -i -t ubuntu /bin/bash`
 
-`cat /etc/hosts       //检查容器的进程`
+`cat /etc/hosts       
 
+检查容器的进程`
 `ps -aux`
 
 `docker ps -a`
