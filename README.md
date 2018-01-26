@@ -8,7 +8,7 @@
 
 `cat /etc/hosts`       
 
-检查容器的进程
+检查容器的进程<br>
 `ps -aux`
 
 `docker ps -a`
