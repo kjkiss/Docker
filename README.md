@@ -9,10 +9,11 @@
 `docker run --name web -i -t ubuntu /bin/bash`
 
 进入Docker Shell 可以查看相关命令
-检查主机名<br>
+
+- 检查主机名<br>
 `cat /etc/hosts`       
 
-检查的进程<br>
+- 检查的进程<br>
 `ps -aux`
 
 
