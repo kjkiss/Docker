@@ -4,7 +4,10 @@
 
 `docker info`
 
-`docker run --name web -i -t ubuntu /bin/bash`
+
+运行一个容器，命名web, -i: STDIN开启，-t: 分配伪tty终端
+
+    `docker run --name web -i -t ubuntu /bin/bash`
 
 `cat /etc/hosts`       
 
