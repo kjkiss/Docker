@@ -16,7 +16,7 @@
 - 检查的进程<br>
 `ps -aux`
 
-
+show running container, *-a*: show all container<br>
 `docker ps -a`
 
 `docker start yourcontainername`
