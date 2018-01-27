@@ -5,13 +5,16 @@
 `docker info`
 
 
-运行一个容器，命名web, **-i**: STDIN开启，*-t*: 分配伪tty终端<br>
+运行一个容器，命名web, *-i*: STDIN开启，*-t*: 分配伪tty终端<br>
 `docker run --name web -i -t ubuntu /bin/bash`
 
-`cat /etc/hosts`       
+进入Docker Shell 可以查看相关命令
+检查主机名<br>
+`cat /etc/hosts`       
 
-检查容器的进程<br>
+检查的进程<br>
 `ps -aux`
+
 
 `docker ps -a`
 
